@@ -29,6 +29,7 @@
     "react-native": ">=0.40.0"
   },
   "scripts": {
+    "build" : "tsc",
     "prepack": "tsc -p tsconfig.json",
     "start": "tsc -p tsconfig.json -w",
     "test": "echo 'no tests'",
