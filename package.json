@@ -25,9 +25,7 @@
     "url": "https://github.com/tanguyantoine/react-native-music-control.git"
   },
   "author": "Tanguy Antoine",
-  "peerDependencies": {
-    "react-native": ">=0.40.0"
-  },
+  "nativePackage": true,
   "scripts": {
     "build" : "tsc",
     "prepack": "tsc -p tsconfig.json",
