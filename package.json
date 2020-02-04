@@ -27,12 +27,7 @@
   "author": "Tanguy Antoine",
   "nativePackage": true,
   "scripts": {
-    "build" : "tsc",
-    "prepack": "tsc -p tsconfig.json",
-    "start": "tsc -p tsconfig.json -w",
-    "test": "echo 'no tests'",
-    "semantic-release:ci": "semantic-release --no-ci",
-    "semantic-release": "semantic-release"
+    "build" : "tsc"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.4",
