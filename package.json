@@ -27,7 +27,10 @@
   "author": "Tanguy Antoine",
   "nativePackage": true,
   "scripts": {
-    "build" : "tsc"
+    "build" : "tsc",
+    "test": "echo 'no tests'",
+    "semantic-release:ci": "semantic-release --no-ci",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.4",
