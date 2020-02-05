@@ -29,8 +29,9 @@
   "author": "Tanguy Antoine",
   "nativePackage": true,
   "scripts": {
-    "build" : "tsc --build tsconfig.json",
-    "prepare": "yarn install",
+    "build" : "tsc",
+    "preinstall": "yarn install",
+    "postinstall": "tsc --build tsconfig.json",
     "test": "echo 'no tests'",
     "semantic-release:ci": "semantic-release --no-ci",
     "semantic-release": "semantic-release"
