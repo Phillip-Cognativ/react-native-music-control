@@ -30,7 +30,7 @@
   "nativePackage": true,
   "scripts": {
     "build" : "tsc",
-    "preinstall": "tsc --build tsconfig.json",
+    "preinstall": "yarn install && tsc --build tsconfig.json",
     "test": "echo 'no tests'",
     "semantic-release:ci": "semantic-release --no-ci",
     "semantic-release": "semantic-release"
