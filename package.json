@@ -29,7 +29,7 @@
   "nativePackage": true,
   "scripts": {
     "build" : "tsc",
-    "preinstall": "tsc",
+    "preinstall": "tsc --build tsconfig.json",
     "test": "echo 'no tests'",
     "semantic-release:ci": "semantic-release --no-ci",
     "semantic-release": "semantic-release"
