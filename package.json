@@ -30,7 +30,7 @@
   "nativePackage": true,
   "scripts": {
     "build" : "tsc",
-    "postinstall": "yarn install",
+    "install": "yarn install",
     "test": "echo 'no tests'",
     "semantic-release:ci": "semantic-release --no-ci",
     "semantic-release": "semantic-release"
