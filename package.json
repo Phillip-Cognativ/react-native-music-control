@@ -9,7 +9,8 @@
     "ios/",
     "android/",
     "lib/",
-    "*.podspec"
+    "*.podspec",
+    "tsconfig.json"
   ],
   "keywords": [
     "react",
